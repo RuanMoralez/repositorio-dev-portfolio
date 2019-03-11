@@ -1,0 +1,66 @@
+.banner-top{
+    background-image: url("../img/banner-top.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+}
+
+.logo {
+    color: #fff;
+    padding: 15px;
+}
+
+.cabecalho-menu{
+    padding:15px 0;    
+}
+
+.cabecalho-menu ul {
+    list-style: none;
+    font-size: 1.1em;
+    padding:0;
+}
+
+.cabecalho-menu ul li {
+    float: left;
+    padding: 15px 15px;
+}
+
+.cabecalho-menu ul li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.cabecalho-menu ul li a:hover{
+    color:blue;
+}
+
+.menu{
+    float: right;
+}
+
+.social{
+    float: left;
+    padding-top:10px;
+    padding-left:15px;
+}
+
+img{
+    max-width: 30px;
+}
+
+/* Início Slide */
+
+.slide{
+    text-align: center;
+    color:#fff;
+    
+    
+}
+
+.slide h2{
+    padding-top: 110px;
+    padding-bottom: 20px;
+}
+
+
+/*https://www.leonardomagalhaes.com.br/*/
