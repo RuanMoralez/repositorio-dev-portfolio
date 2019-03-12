@@ -1,32 +1,28 @@
-.banner-top{
-    background-image: url("../img/banner-top.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 500px;
+.container-top{
+    padding:15px;
 }
 
-.logo {
-    color: #fff;
-    padding: 15px;
+.logo h1 {
+    font-size: 1.5em;
 }
 
 .cabecalho-menu{
-    padding:15px 0;    
+    
 }
 
 .cabecalho-menu ul {
     list-style: none;
     font-size: 1.1em;
-    padding:0;
+    
 }
 
 .cabecalho-menu ul li {
     float: left;
-    padding: 15px 15px;
+    padding: 0px 15px;
 }
 
 .cabecalho-menu ul li a{
-    color:#fff;
+    color:#000;
     text-decoration: none;
 }
 
@@ -38,29 +34,51 @@
     float: right;
 }
 
-.social{
+.social a{
     float: left;
-    padding-top:10px;
     padding-left:15px;
-}
-
-img{
-    max-width: 30px;
+    color:#000;
+    font-size: 1.4em;
+    text-decoration: none;
 }
 
 /* Início Slide */
 
-.slide{
+.slide {
+    background-image: url("../img/banner-top.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.conteudo-slide{
+    padding:100px 0;
     text-align: center;
-    color:#fff;
-    
+    color: #fff;
     
 }
 
-.slide h2{
-    padding-top: 110px;
-    padding-bottom: 20px;
+.conteudo-slide h2{
+    font-size: 2.5em;
+    padding-bottom: 20px
 }
+
+.conteudo-slide p{
+    font-size: 1.5em;
+    padding-bottom: 20px
+}
+
+.conteudo-slide i{
+    font-size: 15px
+}
+
+.btn-saiba-mais{
+    background-color:#FF6347;
+    border: 0;
+    padding:10px 15px;
+    color:#fff;
+}
+
+
 
 
 /*https://www.leonardomagalhaes.com.br/*/
