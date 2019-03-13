@@ -1,10 +1,11 @@
-.container-top{
-    
+.cabecalho-menu{
+    background-color:#FFF;
 }
-
 .logo h1{
     font-size: 1.5em;
     padding-top: 12px;
+    text-align: center;
+
 }
 
 .cabecalho-menu ul {
@@ -37,7 +38,8 @@
 }
 
 .social i{
-    padding-top:15px;   
+    padding-top:15px;  
+    font-weight: 400;
 }
 
 .social a{
@@ -48,10 +50,22 @@
     text-decoration: none;
 }
 
+.facebook{
+    color:#3f5d9a;
+}
+
+.whatsapp{
+    color:#1ebea5;
+}
+
+.instagram{
+    color:#d23594;
+}
+
 /* Início Slide */
 
 .tamanho-slide{
-    height: 350px;
+    height: 500px;
 }
 
 #banner-00{
@@ -76,7 +90,7 @@
 
 .slide-conteudo-00 h2{
     font-size: 2.5em;
-    padding-top:80px;
+    padding-top:150px;
     padding-bottom:15px;
     font-weight: 100;
     
@@ -84,14 +98,15 @@
 
 .slide-conteudo-00 p{
     font-size:20px;
-    padding-bottom: 10px;
+    padding: 10px 0 40px 0;
     font-weight: 300;
 }
 
 .btn-saiba-mais{
     border:0px;
-    background-color: #FF4500;
+    background-color:#000;
     padding: 10px 15px;
+    opacity: 0.7;
 }
 
 .btn-saiba-mais i{
@@ -113,48 +128,112 @@
 }
 
 /*Inicio Section*/
-
-section{
-    padding: 20px 15px;
+.section-servico {
     text-align: center;
+    padding: 30px 15px;
+}
+
+.section-servico h3{
+    font-size: 1.5em;
+    padding: 15px 0 0 0;
+}
+
+.section-servico i{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size:250%;
+    padding:16px;
+    color:#fff;
+    background-color:#3CB371; 
 }
 
 /*
-.slide {
-    background-image: url("../img/banner-top.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+.section-icon-00{
+    background-color:#FF6347; 
 }
 
-.conteudo-slide{
-    padding:100px 0;
-    text-align: center;
-    color: #fff;
-    
+.section-icon-01{
+    background-color:#FF6347; 
 }
 
-.conteudo-slide h2{
-    font-size: 2.5em;
-    padding-bottom: 20px
+.section-icon-02{
+    background-color:#FF6347; 
 }
 
-.conteudo-slide p{
-    font-size: 1.5em;
-    padding-bottom: 20px
+.section-icon-03{
+    background-color:ama; 
 }
+*/
 
-.conteudo-slide i{
-    font-size: 15px
-}
-
-.btn-saiba-mais{
-    background-color:#FF6347;
-    border: 0;
-    padding:10px 15px;
+/* Section sobre */
+.section-sobre {
+    padding:50px 0;
+    background-color:#000;
     color:#fff;
 }
 
-*/
+.section-sobre h3{
+    font-weight: 200;
+}
+
+.section-sobre h4{
+    padding-top: 40px;
+    font-weight: 300;
+}
+
+.section-sobre h5{
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+
+.section-sobre p{
+    font-weight: 200;
+    padding: 5px 0;
+}
+
+.section-sobre img {
+    width: 250px;
+}
+
+/*Section Portfolio*/
+
+.section-portfolio h3{
+    text-align: center;
+    font-weight: ;
+}
+
+.section-portfolio{
+    padding:50px 50px 0 50px;
+}
+
+.section-portfolio article{
+    text-align: center;
+    padding:40px 0;
+}
+
+.section-portfolio i{
+    background-color: #000;
+    padding: 20px 100px;
+    font-size:15em;
+    color:#FFF;
+}
+
+.section-portfolio a:hover{
+    background-color:black;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+address{
+    background-color:#3CB371;
+    padding:50px;
+}
+
+address h3{
+    
+    
+}
 
 
 /*https://www.leonardomagalhaes.com.br/*/
