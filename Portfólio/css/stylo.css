@@ -1,37 +1,43 @@
 .container-top{
-    padding:15px;
-}
-
-.logo h1 {
-    font-size: 1.5em;
-}
-
-.cabecalho-menu{
     
+}
+
+.logo h1{
+    font-size: 1.5em;
+    padding-top: 12px;
 }
 
 .cabecalho-menu ul {
     list-style: none;
     font-size: 1.1em;
-    
+    padding:0;
+    margin:0;
 }
 
 .cabecalho-menu ul li {
     float: left;
-    padding: 0px 15px;
+    padding:13px 0;
 }
 
 .cabecalho-menu ul li a{
     color:#000;
     text-decoration: none;
+    font-weight: 500;
+    padding:15px;
+    transition: 0.2s;
 }
 
 .cabecalho-menu ul li a:hover{
-    color:blue;
+    color:#fff;
+    background-color:#000;
 }
 
 .menu{
     float: right;
+}
+
+.social i{
+    padding-top:15px;   
 }
 
 .social a{
@@ -44,6 +50,76 @@
 
 /* Início Slide */
 
+.tamanho-slide{
+    height: 350px;
+}
+
+#banner-00{
+    background: url("../img/slide-banner-0.jpg")center no-repeat;
+    background-size: 100%;
+}
+
+#banner-01{
+    background: url("../img/slide-banner-1.jpeg")center no-repeat;
+    background-size: 100%;
+}
+
+#banner-02{
+    background: url("../img/slide-banner-2.jpg")center no-repeat;
+    background-size: 100%;
+}
+
+.slide-conteudo-00{
+    text-align: center;
+    color:#FFF;
+}
+
+.slide-conteudo-00 h2{
+    font-size: 2.5em;
+    padding-top:80px;
+    padding-bottom:15px;
+    font-weight: 100;
+    
+}
+
+.slide-conteudo-00 p{
+    font-size:20px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.btn-saiba-mais{
+    border:0px;
+    background-color: #FF4500;
+    padding: 10px 15px;
+}
+
+.btn-saiba-mais i{
+    font-size: 12px;
+}
+
+.btn-saiba-mais{
+    color:#fff; 
+    font-weight: 400;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn-saiba-mais:hover{
+    text-decoration: none;
+    background: #fff;
+    color:#000;
+}
+
+/*Inicio Section*/
+
+section{
+    padding: 20px 15px;
+    text-align: center;
+}
+
+/*
 .slide {
     background-image: url("../img/banner-top.jpeg");
     background-repeat: no-repeat;
@@ -78,7 +154,7 @@
     color:#fff;
 }
 
-
+*/
 
 
 /*https://www.leonardomagalhaes.com.br/*/
