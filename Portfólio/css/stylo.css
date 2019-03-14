@@ -200,21 +200,22 @@
 
 .section-portfolio h3{
     text-align: center;
-    font-weight: ;
+    font-weight:500;
+    padding-bottom: 30px;
 }
 
 .section-portfolio{
-    padding:50px 50px 0 50px;
+    padding:40px;   
 }
 
 .section-portfolio article{
     text-align: center;
-    padding:40px 0;
+    padding-bottom: 30px;
 }
 
 .section-portfolio i{
     background-color: #000;
-    padding: 20px 100px;
+    padding: 20px 80px;
     font-size:15em;
     color:#FFF;
 }
@@ -231,8 +232,25 @@ address{
 }
 
 address h3{
-    
-    
+    padding-bottom: 15px;
+}
+
+.btn-enviar {
+    padding: 10px 30px;
+    background-color:#000;
+    border-radius: 4px;
+    color:#fff;
+}
+
+.btn-enviar:hover{
+    text-decoration: none;
+    background: #696969;
+    color:#fff;
+    transition:0.3s;
+}
+
+address i{
+    padding-right: 5px;
 }
 
 
