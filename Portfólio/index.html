@@ -9,24 +9,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/stylo.css" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="css/Animate/animate.css" type="text/css"> 
     <title>Portfólio</title>
   </head>
   <body>
-      
       <!-- Cabecalho Início -->
       <div class="container-fluid">
           <!-- Menu Início -->
-          <div class="container container-top">
+          <div class="container container-top" id="inicio">
               <div class="row cabecalho-menu fixed-top">
                   <div class="col-md-4 logo"><h1>Ruan Moralez</h1></div>
                   <div class="col-md-6">
                       <div class="menu">
                         <ul>
-                          <li><a href="index.html">Início</a></li>
-                          <li><a href="#">Sobre</a></li>
-                          <li><a href="#">Portfólio</a></li>
-                          <li><a href="#">Contato</a></li>
+                          <li><a href="#inicio">Início</a></li>
+                          <li><a href="#sobre">Sobre</a></li>
+                          <li><a href="#portfolio">Portfólio</a></li>
+                          <li><a href="#contato">Contato</a></li>
                           
                         </ul>
                       </div>
@@ -57,10 +56,10 @@
         <div class="carousel-inner">
             <div class="carousel-item active tamanho-slide" id="banner-00">
                 <div class="slide-conteudo-00">
-                    <h2>Criação de sites</h2>
-                    <p>Você não possui um site ou está desatualizado,antigo e sem recursos otimizado <br />
+                    <h2 class="animated bounceInDown">Criação de sites</h2>
+                    <p class="animated bounceInRight">Você não possui um site ou está desatualizado,antigo e sem recursos otimizado <br />
                        para aparelhos móveis (responsivos) ? </p>
-                    <a href="#" class="btn-saiba-mais">Saiba mais <i class="fas fa-angle-double-right align-middle"></i></a>  
+                    <button class="btn-saiba-mais animated bounceInLeft">Saiba mais </button> 
                 </div>
             </div>
             <div class="carousel-item  tamanho-slide" id="banner-01">
@@ -87,28 +86,28 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 text-center">
-                    <article>
+                    <article class="animated bounceInUp">
                         <i class="fas fa-pencil-alt section-icon-00"></i>
                         <h3>UX E DESIGN</h3>
                         <p>Aumente a experiência do usuario</p>
                     </article>
                 </div>
                 <div class="col-md-3 text-center">
-                    <article>
+                    <article class="animated bounceInUp">
                         <i class="fas fa-cog section-icon-01"></i>
                         <h3>AUTOMAÇÃO</h3>
                         <p>Desenvolvimento de sistemas automáticos de controle e execução de processos</p>
                     </article>
                 </div>
                 <div class="col-md-3 text-center">
-                    <article>
+                    <article class="animated bounceInUp">
                         <i class="fas fa-briefcase section-icon-02"></i>
                         <h3>BUSINESS INTELLIGENCE</h3>
                         <p>Coleta, organização, análise, compartilhamento e monitoramento de informações</p>
                     </article>
                 </div>
                 <div class="col-md-3 text-center">
-                    <article>
+                    <article class="animated bounceInUp">
                         <i class="fas fa-lock section-icon-03"></i>
                         <h3>SEGURANÇA</h3>
                         <p>Criação de ambiente de proteção de dados</p>
@@ -120,7 +119,7 @@
       <!-- Section servico Fim -->
       
       <!-- Section Sobre Início -->
-      <section class="section-sobre">
+      <section class="section-sobre" id="sobre">
           <div class="container-fluid">
               <div class="container">
                   <div class="row">
@@ -129,10 +128,10 @@
                           <h4>Ruan Moralez</h4>
                           <h5>Administrator de Banco de Dados | Desenvolvedor Web | Programador JAVA | Programador PHP - Laravel</h5>
                           <div class="row">
-                              <div class="col-md-3 text-center">
+                              <div class="col-md-4 text-center">
                                   <img src="img/sobre-img-perfil.jpeg" class="rounded-circle img-fluid">
                               </div>
-                              <div class="col-md-9">
+                              <div class="col-md-8">
                                   <p>Completamente viciado e apaixonado por códigos. Comecei a desenvolver sites e sistemas em 2003 e não consegui mais parar.</p>
                                   <p>Desenvolvo projetos voltados para o posicionamento e fortalecimento do cliente na web, através da análise concorrencial e das melhores estratégias, utilizando sempre tecnologias avançadas e ideias inovadoras.</p>
                                   <p>Além disso, direciono parte do meu tempo para pesquisas e artigos sobre tecnologia para o meu blog.</p>
@@ -147,7 +146,7 @@
       <!-- Section Sobre Fim -->
       
       <!-- Section portfolio inicio -->
-      <section class="section-portfolio">
+      <section class="section-portfolio" id="portfolio">
           <div class="container-fluid">
               <div class="row">
                   <div class="col-md-12">
@@ -192,9 +191,9 @@
       </section>
       <!-- Section Portfolio Fim-->
       
-      <!-- Adress Inicio-->
-      <address>
-          <div class="container-fluid">
+      <!-- Address Inicio-->
+      <address id="contato">
+          <div class="container-flu">
               <div class="container">
                   <div class="row">
                       <div class="col-md-4">
@@ -209,17 +208,14 @@
                           <form>
                               <div class="row">
                                   <div class="form-group col-md-6">
-                                      <!-- <label for="inputNome">Seu nome...</label> -->
-                                      <input type="text" name="nome" class="form-control" placeholder="Seu nome...">
+                                      <input type="text" name="nome" class="form-control" placeholder="Seu nome..." />
                                   </div>
                                   <div class="form-group col-md-6">
-                                      <!-- <label for="inputEmail">Seu e-mail...</label> -->
-                                      <input type="text" name="email" class="form-control" placeholder="Seu e-mail...">
+                                      <input type="text" name="email" class="form-control" placeholder="Seu e-mail..." />
                                   </div>
                               </div>
                               <div class="row">
                                   <div class="form-group col-md-12">
-                                      <!-- <label for="exampleFormControlTextarea1">Exemplo de textarea</label> -->
                                       <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Sua mensagem..."></textarea>
                                   </div>
                               </div>
@@ -229,7 +225,19 @@
                   </div>
               </div>
           </div>
-      </address>      
+      </address>
+      <!-- Address Fim -->
+      
+      <!-- footer Inicio -->
+      <footer class="text-center">
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-12">
+                      <h3> 2019 © Ruan Moralez. Todos os direitos reservados.</h3>
+                  </div>
+              </div>
+          </div>
+      </footer>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

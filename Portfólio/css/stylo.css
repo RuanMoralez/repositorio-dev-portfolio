@@ -2,7 +2,7 @@
     background-color:#FFF;
 }
 .logo h1{
-    font-size: 1.5em;
+    font-size: 2em;
     padding-top: 12px;
     text-align: center;
 
@@ -10,7 +10,7 @@
 
 .cabecalho-menu ul {
     list-style: none;
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding:0;
     margin:0;
 }
@@ -26,6 +26,7 @@
     font-weight: 500;
     padding:15px;
     transition: 0.2s;
+    font-size:1.2em;
 }
 
 .cabecalho-menu ul li a:hover{
@@ -38,15 +39,15 @@
 }
 
 .social i{
-    padding-top:15px;  
+    padding-top:19px;  
     font-weight: 400;
 }
 
 .social a{
     float: left;
-    padding-left:15px;
+    padding-right:20px;
     color:#000;
-    font-size: 1.4em;
+    font-size: 1.5em;
     text-decoration: none;
 }
 
@@ -92,21 +93,21 @@
     font-size: 2.5em;
     padding-top:150px;
     padding-bottom:15px;
-    font-weight: 100;
+    font-weight: 400;
     
 }
 
 .slide-conteudo-00 p{
-    font-size:20px;
+    font-size:1.6em;
     padding: 10px 0 40px 0;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .btn-saiba-mais{
-    border:0px;
     background-color:#000;
     padding: 10px 15px;
-    opacity: 0.7;
+    opacity: 0.9;
+    border:0;
 }
 
 .btn-saiba-mais i{
@@ -114,6 +115,7 @@
 }
 
 .btn-saiba-mais{
+    font-size:1.2em;
     color:#fff; 
     font-weight: 400;
     text-decoration: none;
@@ -129,23 +131,25 @@
 
 /*Inicio Section*/
 .section-servico {
-    text-align: center;
     padding: 30px 15px;
 }
 
 .section-servico h3{
+    
     font-size: 1.5em;
     padding: 15px 0 0 0;
 }
 
+.section-servico p{
+    font-size:1.2em;
+}
+
 .section-servico i{
-    width: 70px;
-    height: 70px;
     border-radius: 50%;
-    font-size:250%;
-    padding:16px;
+    padding:15px;
+    font-size:3em;
     color:#fff;
-    background-color:#3CB371; 
+    background-color:darkcyan; 
 }
 
 /*
@@ -168,7 +172,7 @@
 
 /* Section sobre */
 .section-sobre {
-    padding:50px 0;
+    padding:80px 0;
     background-color:#000;
     color:#fff;
 }
@@ -189,11 +193,11 @@
 
 .section-sobre p{
     font-weight: 200;
-    padding: 5px 0;
+    font-size:1.2em;
 }
 
 .section-sobre img {
-    width: 250px;
+    width: 280px;
 }
 
 /*Section Portfolio*/
@@ -201,11 +205,11 @@
 .section-portfolio h3{
     text-align: center;
     font-weight:500;
-    padding-bottom: 30px;
+    padding:30px 0;
 }
 
 .section-portfolio{
-    padding:40px;   
+    padding:40px 50px;   
 }
 
 .section-portfolio article{
@@ -215,7 +219,7 @@
 
 .section-portfolio i{
     background-color: #000;
-    padding: 20px 60px;
+    padding: 20px 80px;
     font-size:15em;
     color:#FFF;
 }
@@ -228,11 +232,17 @@
 
 address{
     background-color:#3CB371;
-    padding:50px;
+    padding:120px;
+    margin:0;
 }
 
 address h3{
     padding-bottom: 15px;
+    font-size:2em;
+}
+
+address p{
+    font-size:1.1em;
 }
 
 .btn-enviar {
@@ -249,5 +259,17 @@ address h3{
     transition:0.3s;
 }
 
+/* Footer */
+footer{
+    padding:30px;
+    background-color:#000 ;
+}
+
+footer h3{
+    font-size:1em;
+    color:#fff;
+    font-weight: 300;
+}
 
 /*https://www.leonardomagalhaes.com.br/*/
+/*Animação scroll https://www.youtube.com/watch?v=FoRd0m2drkg*/
