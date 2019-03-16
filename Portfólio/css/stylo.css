@@ -239,6 +239,10 @@
 
 /*Section Portfolio*/
 
+.section-portfolio {
+background-color:#FF7F50;    
+}
+
 .section-portfolio h3{
     text-align: center;
     font-weight:500;
