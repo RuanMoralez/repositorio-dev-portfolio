@@ -291,6 +291,7 @@ address p{
     background-color:#000;
     border-radius: 4px;
     color:#fff;
+    border:0;
 }
 
 .btn-enviar:hover{
