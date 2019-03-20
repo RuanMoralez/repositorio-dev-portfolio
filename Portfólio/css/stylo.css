@@ -1,11 +1,15 @@
 .cabecalho-menu{
     background-color:#FFF;
 }
-.logo h1{
-    font-size: 2em;
+
+.menu-top{
+    background:#FFF;
+}
+
+nav h1{
+    font-size: 1.5em;
     padding-top: 12px;
     text-align: center;
-
 }
 
 .cabecalho-menu ul {
@@ -39,7 +43,6 @@
 }
 
 .social i{
-    padding-top:19px;  
     font-weight: 400;
 }
 
@@ -53,6 +56,7 @@
 
 .facebook{
     color:#3f5d9a;
+    margin-left:10px; 
 }
 
 .whatsapp{
