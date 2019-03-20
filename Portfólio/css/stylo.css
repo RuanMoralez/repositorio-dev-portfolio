@@ -70,18 +70,21 @@
 }
 
 #banner-00{
-    background: url("../img/slide-banner-0.jpg")center no-repeat;
-    background-size: 100%;
+    background: url("../img/slide-banner-0.jpg");
+    background-size: cover!important;
+	background-position: center center!important;
 }
 
 #banner-01{
-    background: url("../img/slide-banner-1.jpeg")center no-repeat;
-    background-size: 100%;
+    background: url("../img/slide-banner-1.jpeg");
+    background-size: cover!important;
+	background-position: center center!important;
 }
 
 #banner-02{
-    background: url("../img/slide-banner-2.jpg")center no-repeat;
-    background-size: 100%;
+    background: url("../img/slide-banner-2.jpg");
+    background-size: cover!important;
+	background-position: center center!important;
 }
 
 .slide-conteudo-00{
