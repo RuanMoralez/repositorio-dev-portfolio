@@ -42,6 +42,10 @@ nav h1{
     float: right;
 }
 
+.social{
+    margin:0 auto;
+}
+
 .social i{
     font-weight: 400;
 }
