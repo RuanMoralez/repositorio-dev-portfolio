@@ -396,6 +396,10 @@ footer h3{
         font-size:0.9em;
     }
     
+    .section-portfolio i {
+        padding: 20px 50px;
+    }
+    
     address{
         padding:0 30px;
         padding-bottom:50px;
