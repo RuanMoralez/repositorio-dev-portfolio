@@ -257,7 +257,7 @@ background-color:#FF7F50;
 }
 
 .section-portfolio{
-    padding:40px 50px;   
+    padding:40px 0px;   
 }
 
 .section-portfolio article{
@@ -376,8 +376,39 @@ footer h3{
         text-align: center;
     }
     
+    /*Servico*/
     .section-servico article{
         padding-bottom: 30px
+    }
+    
+    /*Sobre*/
+    .section-sobre{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    
+    .section-sobre h5{
+        font-size:0.9em;
+    }
+    
+    .sobre-paragrafo {
+        padding-top:50px;
+        font-size:0.9em;
+    }
+    
+    address{
+        padding:0 30px;
+        padding-bottom:50px;
+    }
+    
+    address h3{
+        padding-top:50px;
+        padding-bottom:30px;
+        
+    }
+    
+    footer h3{
+        font-size:0.8em;
     }
     
 }
