@@ -477,12 +477,16 @@ footer h3{
     }
     
     .section-sobre{
-        padding-top:50px;
+        padding-top:100px;
         padding-bottom:50px;
     }
     
     .section-sobre h5{
         font-size:0.9em;
+    }
+    
+    .section-portfolio{
+        padding-top:75px;
     }
     
     .sobre-paragrafo {
@@ -491,13 +495,12 @@ footer h3{
     }
     
     address{
-        padding:0 30px;
-        padding-bottom:50px;
+        padding:100px 30px;
+        padding-bottom:100px;
     }
 
     address h3{
-        padding-top:50px;
-        padding-bottom:30px;
+        padding-bottom:50px;
         font-size:1.9em;
     }
 }
@@ -555,6 +558,9 @@ footer h3{
         font-size:1.2em;
         text-align: center;
     }
+    .section-portfolio {
+        padding-top:70px;
+    }
     
     .section-portfolio i{
         padding:30px 30px;
@@ -562,13 +568,11 @@ footer h3{
     }
     
      address{
-        padding:0 30px;
-        padding-bottom:50px;
+        padding:85px 30px;
     }
     
     address h3{
-        padding-top:50px;
-        padding-bottom:30px;
+        padding-bottom: 40px;
         font-size:1.9em;
     }
     
@@ -583,25 +587,45 @@ footer h3{
 
 /*Desktop*/
 @media(min-width: 992px) and (max-width: 1199.98px){
+    
+    .section-sobre {
+        padding:100px 0;
+        background-color:#000;
+        color:#fff
+    }
+    
+    .section-portfolio{
+        padding-top:0px;
+    }
+    
+    .section-portfolio h3{
+        padding-top:100px;
+        padding-bottom:50px;
+    }
+    
     .section-portfolio i{
         padding:30px 30px;
         font-size:14em
     }
     
      address{
-        padding:0 30px;
-        padding-bottom:50px;
+        padding:60px 30px;
     }
 
     address h3{
-        padding-top:50px;
-        padding-bottom:30px;
+        padding:50px 0 40px 0;
         font-size:1.9em;
     }
     
 }
 
 @media(min-width: 1200px){
+    
+    .section-portfolio h3{
+        padding:70px 0 60px 0;   
+        
+    }
+    
      address{
         padding:0 140px;
         padding-bottom:100px;
