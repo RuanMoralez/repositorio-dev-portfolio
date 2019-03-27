@@ -583,8 +583,42 @@ footer h3{
 
 /*Desktop*/
 @media(min-width: 992px) and (max-width: 1199.98px){
+    .section-portfolio i{
+        padding:30px 30px;
+        font-size:14em
+    }
+    
+     address{
+        padding:0 30px;
+        padding-bottom:50px;
+    }
+
+    address h3{
+        padding-top:50px;
+        padding-bottom:30px;
+        font-size:1.9em;
+    }
     
 }
 
+@media(min-width: 1200px){
+     address{
+        padding:0 70px;
+        padding-bottom:100px;
+    }
+
+    address h3{
+        padding-top:80px;
+        padding-bottom:40px;
+        font-size:2em;
+    }
+    
+    address p {
+        font-size:1.2em
+    }
+    
+}
+
+    
 /*https://www.leonardomagalhaes.com.br/*/
 /*Animação scroll https://www.youtube.com/watch?v=FoRd0m2drkg*/
