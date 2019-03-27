@@ -420,7 +420,86 @@ footer h3{
     footer h3{
         font-size:0.8em;
     }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px){
+    .slide-conteudo-00 h2{
+        font-size: 2em;
+        padding-top:150px;
+        padding-bottom:15px;
+        font-weight: 400;
+    }
     
+    .slide-conteudo-00 p{
+        font-size:1.2em;
+    }
+    
+    
+    .btn-saiba-mais{
+        height: 45px;
+        width: 110px;
+        font-size: 1em;
+    }
+    
+    /*slide01*/
+    .slide-conteudo-01{
+        padding:150px 0 0 0;
+        padding-bottom:15px;
+        font-weight: 400;
+        text-align: center !important;
+    }
+    
+    .slide-conteudo-01 h2{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .slide-conteudo-01 p{
+        font-size:1.2em;
+        text-align: center;
+    }
+    /*slide01*/
+    .slide-conteudo-02{
+        padding:150px 0 0 0;
+        padding-bottom:15px;
+        font-weight: 400;
+        text-align: center !important;
+    }
+    
+    .slide-conteudo-02 h2{
+        font-size: 2em;
+        text-align: center;
+    }
+    
+    .slide-conteudo-02 p{
+        font-size:1.2em;
+        text-align: center;
+    }
+    
+    .section-sobre{
+        padding-top:50px;
+        padding-bottom:50px;
+    }
+    
+    .section-sobre h5{
+        font-size:0.9em;
+    }
+    
+    .sobre-paragrafo {
+        padding-top:50px;
+        font-size:0.9em;
+    }
+    
+    address{
+        padding:0 30px;
+        padding-bottom:50px;
+    }
+    
+    address h3{
+        padding-top:50px;
+        padding-bottom:30px;
+        
+    }
 }
 
 /*https://www.leonardomagalhaes.com.br/*/
